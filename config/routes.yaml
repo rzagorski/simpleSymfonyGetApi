@@ -1,0 +1,15 @@
+default:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+users:
+    path: /users/{page}
+    requirements:
+        page: '\d+'
+    defaults:
+        page: 1
+    controller: App\Controller\Users\ApiController::index
+
+users.info:
+    path: /users/info
+    controller: App\Controller\Users\ApiController::infoAction

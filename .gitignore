@@ -95,3 +95,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/.idea/vcs.xml
+/.idea/symfony2.xml
+/symfony.lock
+/.idea/php.xml
+/.idea/my-project.iml
+/.idea/modules.xml
+/composer.lock
+/.idea/code-comments.xml
+/.idea/composerJson.xml
+/.idea/*.xml

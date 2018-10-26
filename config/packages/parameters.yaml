@@ -1,0 +1,5 @@
+parameters:
+    users_api:
+        base_url: 'https://reqres.in/api/'
+        page_template: '/?page=%s'
+        timeout: 10
